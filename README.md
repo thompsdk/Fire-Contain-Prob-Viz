@@ -7,4 +7,8 @@ The ability of a fire crew with a non-limited surface water supply, power pumps,
 
 This code snippet provides a simple enhanced visualization for the suppression model of Hirsch over time as a fire grows in size and intensity.  A provision for multiple fuel types is provided.  This visualization also supports the comparison of natural (unmodified) fuels as compared to thinned or otherwise modified fuels with a lower spread rate and intensity.
 
-This code repository supports the fuels management decision-making process as it relates to initial suppression likelihood, which is a highly non-linear effect over time.  
+This code repository supports the fuels management decision-making process as it relates to initial suppression likelihood, which is a highly non-linear effect over time. 
+
+Examples of the application of this are shown in the attached pdf, which is fire behaviour modelling in boreal black spruce stands using the FIRETEC model (https://www.mdpi.com/2571-6255/3/2/18)
+
+Note that the suppression likelihood model from Hirsch used here is only one example of suppression likelihood, and is only applicable for boreal conifer stands.  Other suppression models for additional fuel types can be substituted by the user.
