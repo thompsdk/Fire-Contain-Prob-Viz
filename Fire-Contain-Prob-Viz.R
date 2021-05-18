@@ -69,8 +69,6 @@ MatrixContain$fuel <- as.factor(MatrixContain$fuel)
 fueltype <- c("MW")
 
 
-
-
 MatrixContain$WS <- as.factor(MatrixContain$WS)
 
 g <- ggplot(Contain2,aes(HFI, Area)) + geom_raster(aes(fill=Prob)) + scale_y_continuous(limits=c(0,2),expand=c(0,0)) + scale_x_continuous(limits=c(0,15000),expand=c(0,0)) + stat_contour(aes(z = Prob),breaks=c(0.9,0.75,0.5,0.25),colour = "grey50",size = 1.0,show.legend = FALSE) + geom_path(data=MatrixContain, aes(x = HFI, y = Area, group=scen, linetype = rx, color = as.factor(WS)))  + geom_point(data=subset(MatrixContain,time==6), aes(x = HFI, y = Area, group=scen, linetype = rx, color = as.factor(WS)))# + scale_linetype_manual(values = c("solid", "dashed", "dotted")) #+ scale_fill_gradientn(colours=c("#FF0000FF","#FFFFFFFF","#0000FFFF"))
