@@ -12,3 +12,6 @@ This code repository supports the fuels management decision-making process as it
 Examples of the application of this are shown in the attached pdf, which is fire behaviour modelling in boreal black spruce stands using the FIRETEC model (https://www.mdpi.com/2571-6255/3/2/18)
 
 Note that the suppression likelihood model from Hirsch used here is only one example of suppression likelihood, and is only applicable for boreal conifer stands.  Other suppression models for additional fuel types can be substituted by the user.
+
+The final version of the vizualization looks like this;
+![image](https://user-images.githubusercontent.com/58758147/118723354-507d5f00-b7fb-11eb-800e-ac07d5414921.png)
